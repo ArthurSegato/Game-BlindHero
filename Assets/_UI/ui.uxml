@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/_UI/ui_style.uss?fileID=7433441132597879392&amp;guid=8d21bc61260c9da4a9f80946396ab959&amp;type=3#ui_style" />
+    <ui:VisualElement name="intro_UI">
+        <ui:Label text="Welcome to Blind Hero!" display-tooltip-when-elided="true" name="title" class="ui_intro_title" />
+        <ui:Label text="In the menus, use the arrow keys to navigate between pages and press the enter key to confirm the selected option.&#10;&#10;During the game, use the arrow keys to play the corresponding notes at the right time.&#10;&#10;At the end of the game, the complete melody will be played, but the notes will be in the corresponding position with which the player pressed during gameplay, the more precise the player is, the better the final melody will be.&#10;&#10;Thank you very much for playing, and have fun!&#10;" display-tooltip-when-elided="true" name="text" class="ui_intro_text" />
+        <ui:Label text="~Arthur Segato!" display-tooltip-when-elided="true" name="signature" class="ui_intro_signature" />
+    </ui:VisualElement>
+    <ui:VisualElement name="main_menu_UI" tabindex="0" />
+</ui:UXML>
